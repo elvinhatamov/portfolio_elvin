@@ -1,0 +1,26 @@
+<!-- This is a placeholder for your custom favicon -->
+<!-- 
+To replace the React icon in the browser tab:
+
+1. Create or download your custom favicon:
+   - Size: 32x32 pixels (or 16x16, 48x48)
+   - Format: .ico, .png, or .svg
+   - Suggested: Your initials "EH" or a cloud icon
+
+2. Save it as "favicon.ico" in the public folder:
+   - File: d:\files (1)\public\favicon.ico
+
+3. Optional: Also create larger versions for mobile:
+   - logo192.png (192x192 pixels)
+   - logo512.png (512x512 pixels)
+
+4. The HTML is already configured to use your custom favicon
+
+Current setup points to:
+- favicon.ico (main browser tab icon)
+- logo192.png (Apple touch icon)
+- manifest.json (Progressive Web App settings)
+-->
+
+<!-- Temporary text-based favicon using data URI -->
+<!-- You can replace this with your actual image file -->
