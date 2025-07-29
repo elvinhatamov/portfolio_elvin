@@ -25,7 +25,7 @@ const Footer = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:e.hatemov@gmail.com"
+              href="mailto:elvin.hatamov@outlook.com"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >

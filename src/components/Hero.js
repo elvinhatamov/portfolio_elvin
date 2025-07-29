@@ -58,10 +58,11 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="/assets/resume.pdf"
+                href="/assets/Elvin_Hatamov_Cloud_Analyst.pdf"
                 className="btn btn-secondary"
                 target="_blank"
                 rel="noopener noreferrer"
+                download="Elvin_Hatamov_Cloud_Analyst.pdf"
               >
                 <FaDownload /> Download Resume
               </a>
@@ -83,7 +84,7 @@ const Hero = () => {
               </div>
               <div className="contact-item">
                 <FaEnvelope />
-                <span>e.hatemov@gmail.com</span>
+                <span>elvin.hatamov@outlook.com</span>
               </div>
               <div className="contact-item">
                 <FaLinkedin />
@@ -106,12 +107,10 @@ const Hero = () => {
           >
             <div className="profile-image">
               <img
-                src={imageError ? placeholderImage : "/images/profile.jpg"}
-                alt="Elvin Hatamov"
+                src={imageError ? placeholderImage : "/images/elvin_profile.png"}
+                alt="Elvin Hatamov - Cloud Engineer"
                 onError={() => setImageError(true)}
-                onClick={() => alert('Profile picture upload feature coming soon!')}
-                style={{ cursor: 'pointer' }}
-                title="Click to upload your profile picture"
+                loading="lazy"
               />
               <div className="image-overlay"></div>
             </div>

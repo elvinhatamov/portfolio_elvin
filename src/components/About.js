@@ -8,17 +8,10 @@ const About = () => {
     threshold: 0.1
   });
 
-  const languages = [
-    'English (Professional Working)',
-    'Turkish (Full Professional)',
-    'Azerbaijani (Native)',
-    'Russian (Limited Working)'
-  ];
-
   const stats = [
-    { number: '6+', label: 'Years Experience' },
-    { number: '5+', label: 'Certifications' },
-    { number: '4', label: 'Languages' }
+    { number: '3+', label: 'Years Full Stack Dev' },
+    { number: '1.5+', label: 'Years Cloud Computing' },
+    { number: '30+', label: 'Projects Contributed' }
   ];
 
   return (
@@ -41,9 +34,9 @@ const About = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
           >
             <p>
-              I'm a Cloud Computing postgraduate student at George Brown College with hands-on experience in 
-              Microsoft 365, Azure, and AWS. I've contributed to cloud-integrated and web-based projects using 
-              tools like React, Node.js, Azure Virtual Machines, AWS RDS, and Microsoft Endpoint Manager.
+              I'm a Cloud Computing postgraduate student at George Brown College with over 3+ years of experience as a 
+              Full Stack and Web Developer, plus 1.5+ years specializing in Cloud Computing. I've contributed to 30+ projects 
+              using technologies like React, Node.js, Azure, AWS, and Microsoft 365.
             </p>
             <p>
               During my internship as a Research Assistant at Lambton College, I worked on cloud-based applications 
@@ -83,28 +76,6 @@ const About = () => {
                 </motion.div>
               ))}
             </div>
-            
-            <motion.div
-              className="languages"
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: 0.8, duration: 0.6 }}
-            >
-              <h3>Languages</h3>
-              <div className="language-list">
-                {languages.map((language, index) => (
-                  <motion.span
-                    key={language}
-                    className="language-item"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={inView ? { opacity: 1, scale: 1 } : {}}
-                    transition={{ delay: 1 + index * 0.1, duration: 0.3 }}
-                  >
-                    {language}
-                  </motion.span>
-                ))}
-              </div>
-            </motion.div>
           </motion.div>
         </div>
       </div>

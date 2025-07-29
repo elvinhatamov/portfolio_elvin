@@ -120,7 +120,7 @@ function initializeContactForm() {
             showNotification('Sending message...', 'info');
             
             // Create mailto link (since we don't have a backend)
-            const mailtoLink = `mailto:e.hatemov@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+            const mailtoLink = `mailto:elvin.hatamov@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
             
             setTimeout(() => {
                 window.location.href = mailtoLink;

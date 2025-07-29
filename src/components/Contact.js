@@ -50,7 +50,7 @@ const Contact = () => {
     }
     
     // Create mailto link
-    const mailtoLink = `mailto:e.hatemov@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
+    const mailtoLink = `mailto:elvin.hatamov@outlook.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
     
     showNotification('Opening email client...', 'info');
     
@@ -75,7 +75,7 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      content: 'e.hatemov@gmail.com'
+      content: 'elvin.hatamov@outlook.com'
     },
     {
       icon: <FaLinkedin />,
