@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   const [ref, inView] = useInView({
@@ -62,16 +62,6 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    {
-      icon: <FaMapMarkerAlt />,
-      title: 'Address',
-      content: '141 Davisville Ave, Toronto\nOntario, Canada'
-    },
-    {
-      icon: <FaPhone />,
-      title: 'Phone',
-      content: '+1 (647) 532-8536'
-    },
     {
       icon: <FaEnvelope />,
       title: 'Email',

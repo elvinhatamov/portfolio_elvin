@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaDownload, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaDownload, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   const [imageError, setImageError] = useState(false);
@@ -74,14 +74,6 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              <div className="contact-item">
-                <FaMapMarkerAlt />
-                <span>Toronto, Ontario, Canada</span>
-              </div>
-              <div className="contact-item">
-                <FaPhone />
-                <span>+1 (647) 532-8536</span>
-              </div>
               <div className="contact-item">
                 <FaEnvelope />
                 <span>elvin.hatamov@outlook.com</span>
