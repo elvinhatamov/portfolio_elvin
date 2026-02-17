@@ -10,20 +10,32 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: 'Research Assistant III / Full Stack Developer',
-      company: 'Lambton College Of Applied Arts & Technology',
-      period: 'February 2025 - June 2025',
+      title: 'Developer, Cloud Engineering',
+      company: 'George Brown College',
+      location: 'Toronto, Ontario, Canada',
+      period: 'September 2025 - December 2025',
       responsibilities: [
-        'Contributed to building and maintaining web applications using React and Express.js',
-        'Managed AWS infrastructure, including API Gateway and Lambda functions',
-        'Set up and integrated custom domains effectively with AWS',
-        'Collaborated with research teams to implement solutions and improve system performance',
-        'Actively participated in agile meetings to support timely project delivery'
+        'Collaborated with a 6-person team to design the architecture for a serverless Resume Scanner platform',
+        'Independently built and deployed the application using AWS services and React, achieving 99% processing accuracy',
+        'Diagnosed and resolved API and Lambda failures, ensuring robust application performance through effective monitoring'
+      ]
+    },
+    {
+      title: 'Full Stack Developer (Cloud/Serverless)',
+      company: 'Lambton College Of Applied Arts & Technology, Just Sales Jobs',
+      location: 'Toronto, Ontario, Canada',
+      period: 'January 2025 - August 2025',
+      responsibilities: [
+        'Developed an analytics web application on AWS, serving over 500 users with elastic scaling and cost efficiency',
+        'Collaborated with a 10-member team to ensure smooth implementation and release readiness',
+        'Enhanced data availability by converting legacy datasets into AWS RDS using Python and SQL',
+        'Optimized React UI and Node.js services, achieving a 60% reduction in API response times'
       ]
     },
     {
       title: 'Freelance Web Developer',
       company: 'Freelance',
+      location: 'Toronto, Ontario, Canada',
       period: 'January 2023 - December 2024',
       responsibilities: [
         'Built and launched e-commerce websites using Shopify and WordPress',
@@ -33,42 +45,43 @@ const Experience = () => {
     {
       title: 'Full Stack Developer',
       company: 'KeelWorks Foundation',
-      period: 'January 2023 - July 2024',
+      location: 'Toronto, ON',
+      period: 'September 2021 - August 2024',
       responsibilities: [
-        'Collaborated with team, transforming business requirements using Java Spring Boot and React',
-        'Developed REST APIs for seamless user file uploads to MongoDB',
-        'Optimized and debugged code for smooth integration and rapid deployment using CI-CD practices',
-        'Engaged in regular peer code reviews and Agile team meetings'
-      ]
-    },
-    {
-      title: 'Immigration Consultant',
-      company: 'Self-employed',
-      period: 'January 2019 - December 2024',
-      responsibilities: [
-        'Assisted clients with Canadian immigration applications',
-        'Reviewed documentation for accuracy and completeness',
-        'Guided clients through complex immigration processes',
-        'Communicated with government agencies on behalf of clients'
+        'Spearheaded the transition of backend services from Java Spring Boot to Node.js (Express.js), significantly improving development efficiency and application scalability',
+        'Optimized and tested REST APIs using Postman by handling GET, POST, and URL-based HTTP requests',
+        'Collaborated with development teams of 8 members via Slack, Zoom, Microsoft OneDrive, and Trello',
+        'Participated in weekly Agile meetings for sprint planning and progress reviews'
       ]
     },
     {
       title: 'Frontend Web Developer - WordPress Developer',
       company: 'Out in Tech',
+      location: 'United States',
       period: 'March 2023 - May 2023',
       responsibilities: [
-        'Volunteered as Front-end Developer to build website for Key Watch Ghana non-profit',
+        'Volunteered as a Front-end Developer to build a website for Key Watch Ghana, a non-profit organization',
         'Implemented WordPress plugins to enhance website functionality and user experience'
       ]
     },
     {
-      title: 'Software Engineer',
-      company: 'General Assembly',
-      period: 'May 2022 - September 2022',
+      title: 'Medical Representative',
+      company: 'Gen',
+      location: 'Baki, Azerbaijan',
+      period: 'January 2012 - October 2016',
       responsibilities: [
-        'Built real-life projects during the program',
-        'Applied skills and knowledge in practical settings',
-        'Designed and developed robust software solutions'
+        'Developed strong relationships with customers, instrumental in increasing sales',
+        'Identified customer needs by asking the right questions and providing tailored solutions',
+        'Utilized CRM database to track referral and appointment data'
+      ]
+    },
+    {
+      title: 'Medical Representative',
+      company: 'Asfarma International Pharma Marketing',
+      location: 'Baki, Azerbaijan',
+      period: 'September 2006 - April 2013',
+      responsibilities: [
+        'Navigated automated systems to maintain client records and make adjustments when necessary'
       ]
     }
   ];

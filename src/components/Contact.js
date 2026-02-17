@@ -50,7 +50,7 @@ const Contact = () => {
     }
     
     // Create mailto link
-    const mailtoLink = `mailto:elvin.hatamov@outlook.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
+    const mailtoLink = `mailto:e.hatemov@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
     
     showNotification('Opening email client...', 'info');
     
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: 'Address',
-      content: 'Toronto, ON, Canada\nM4S1G7'
+      content: '141 Davisville Ave\nToronto, Ontario, Canada'
     },
     {
       icon: <FaPhone />,
@@ -75,12 +75,12 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      content: 'elvin.hatamov@outlook.com'
+      content: 'e.hatemov@gmail.com'
     },
     {
       icon: <FaLinkedin />,
       title: 'LinkedIn',
-      content: 'linkedin.com/in/elvinhatamov',
+      content: 'www.linkedin.com/in/elvinhatamov',
       link: 'https://www.linkedin.com/in/elvinhatamov'
     }
   ];
