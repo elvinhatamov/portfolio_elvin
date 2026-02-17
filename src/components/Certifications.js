@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaAngular, FaNodeJs, FaCloud, FaPython, FaJs, FaMicrosoft } from 'react-icons/fa';
+import { FaAngular, FaNodeJs, FaPython, FaJs } from 'react-icons/fa';
 import { SiMicrosoftazure } from 'react-icons/si';
 
 const Certifications = () => {
