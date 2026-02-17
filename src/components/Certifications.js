@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaAngular, FaNodeJs, FaCloud, FaPython, FaJs } from 'react-icons/fa';
+import { FaAngular, FaNodeJs, FaPython, FaJs } from 'react-icons/fa';
+import { SiMicrosoftazure } from 'react-icons/si';
 
 const Certifications = () => {
   const [ref, inView] = useInView({
@@ -11,16 +12,16 @@ const Certifications = () => {
 
   const certifications = [
     {
+      name: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+      icon: <SiMicrosoftazure />
+    },
+    {
       name: 'Angular Animation',
       icon: <FaAngular />
     },
     {
       name: 'edX Verified Certificate for Node.js',
       icon: <FaNodeJs />
-    },
-    {
-      name: 'Introduction to Cloud Computing (IBM)',
-      icon: <FaCloud />
     },
     {
       name: 'Django Migrations 101',

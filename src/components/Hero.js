@@ -35,7 +35,7 @@ const Hero = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
             >
               <span className="highlight">Cloud Engineer</span>
-              <br />Azure | AWS | Microsoft 365
+              <br />AWS Serverless | Azure (AZ-900) | CI/CD
             </motion.h1>
             
             <motion.p
@@ -44,8 +44,8 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Passionate Cloud Computing professional with hands-on experience in Microsoft 365, Azure, and AWS. 
-              Specializing in infrastructure as code, containerization, and full-stack development.
+              Azure and AWS certified Cloud Engineer focused on building reliable cloud-native systems—serverless and container-based—across AWS and Azure. 
+              Experienced in API-first solutions with authentication, secure IAM, monitoring, and CI/CD.
             </motion.p>
             
             <motion.div
@@ -76,7 +76,7 @@ const Hero = () => {
             >
               <div className="contact-item">
                 <FaMapMarkerAlt />
-                <span>Toronto, ON, Canada M4S1G7</span>
+                <span>141 Davisville Ave, Toronto, Ontario</span>
               </div>
               <div className="contact-item">
                 <FaPhone />
@@ -84,7 +84,7 @@ const Hero = () => {
               </div>
               <div className="contact-item">
                 <FaEnvelope />
-                <span>elvin.hatamov@outlook.com</span>
+                <span>e.hatemov@gmail.com</span>
               </div>
               <div className="contact-item">
                 <FaLinkedin />

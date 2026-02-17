@@ -11,21 +11,21 @@ const Education = () => {
 
   const education = [
     {
-      degree: 'Postgraduate Degree - Cloud Computing Technologies Program',
+      degree: 'Postgraduate Certificate - Cloud Computing Technologies Program',
       institution: 'George Brown College',
-      period: 'January 2025 - Current',
-      description: 'Currently pursuing advanced cloud computing technologies and practices.',
+      period: 'January 2025 - December 2025',
+      description: 'Advanced cloud computing technologies and practices.',
       icon: <FaGraduationCap />,
       current: true
     },
     {
-      degree: 'Advanced Diploma - Computer Programming Analyst',
+      degree: 'Advanced Diploma Degree - Computer Programming Analyst',
       institution: 'George Brown College',
       period: '2019 - May 2021',
       icon: <FaLaptopCode />
     },
     {
-      degree: 'Certificate - Computer Software Engineering',
+      degree: 'Computer Software Engineering',
       institution: 'General Assembly Canada',
       period: 'May 2022 - September 2022',
       icon: <FaCode />

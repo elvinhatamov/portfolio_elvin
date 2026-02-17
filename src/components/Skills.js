@@ -14,21 +14,26 @@ const Skills = () => {
       title: 'Cloud Platforms',
       icon: <FaCloud />,
       skills: [
-        'AWS (API Gateway, Lambda, RDS)',
-        'AWS Auto Scaling',
-        'Amazon CloudWatch',
-        'Azure Virtual Machines',
-        'Microsoft 365',
-        'Microsoft Endpoint Manager'
+        'AWS Lambda',
+        'AWS API Gateway',
+        'AWS Cognito',
+        'AWS RDS (PostgreSQL)',
+        'AWS S3',
+        'AWS CloudWatch',
+        'AWS ECS',
+        'Azure (AZ-900)',
+        'AWS Bedrock'
       ]
     },
     {
       title: 'Infrastructure & DevOps',
       icon: <FaCogs />,
       skills: [
-        'Infrastructure as Code (IaC)',
+        'Kubernetes',
         'Docker',
-        'CI/CD Pipelines',
+        'CI/CD (GitHub Actions)',
+        'Build Automation',
+        'Infrastructure as Code',
         'Git Version Control',
         'Agile Methodologies'
       ]
@@ -41,19 +46,21 @@ const Skills = () => {
         'Node.js',
         'Express.js',
         'JavaScript',
-        'Java Spring Boot',
-        'REST APIs'
+        'Python',
+        'REST APIs',
+        'Cloud Application Development'
       ]
     },
     {
-      title: 'Databases & CMS',
+      title: 'Databases & Tools',
       icon: <FaDatabase />,
       skills: [
+        'PostgreSQL',
         'MongoDB',
-        'AWS RDS',
-        'WordPress',
-        'Shopify',
-        'SEO Optimization'
+        'RDS',
+        'Postman',
+        'IBM MQ (learning)',
+        'IBM DB2 (learning)'
       ]
     }
   ];
